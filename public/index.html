@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>XPOINTER</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="Xpointer RetroGames" />
+    <meta name="keywords" content="Retro, Games, " />
+    <meta name="author" content="Xpointer RetroGames" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Xpointer RetroGames" />
+    <meta property="og:image" content="../src/assets/xpointer.jpg" />
+    <meta property="og:url" content="../src/assets/xpointer.jpg""/>
+    <meta property="og:site_name" content="Xpointer RetroGames" />
+    <meta property="og:description" content="Xpointer RetroGames" />
+    <meta property="fb:app_id" content="966242223397117" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Xpointer" />
+    <meta name="apple-mobile-web-app-title" content="Xpointer" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-starturl" content="https://xpointer.web.app//" />
+    <meta name="theme-color" content="#080909" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="msapplication-TileColor" content="#2196F3" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://xpointer.web.app/" />
+    <meta name="twitter:title" content="Xpointer RetroGames" />
+    <meta name="twitter:description" content="Xpointer RetroGamesn" />
+    <meta name="twitter:image" content="../src/assets/xpointer.jpg" />
+    <meta name="twitter:creator" content="@Xpointer_RetroGames" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <!-- CHAT -->
+    <script src="https://embed.tawk.to/5f0707eb67771f3813c0b904/1eo5dagsh"></script>
+    <!-- PWA -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js", { scope: "/" })
+          .then(function(registration) {
+            console.log("Service Worker Registered");
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+          console.log("Service Worker Ready");
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but my-app doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

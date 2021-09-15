@@ -1,0 +1,30 @@
+{
+    "dir": "ltr",
+    "lang": "PT-BR",
+    "name": "Guilherme Beitum DevOps | for Web Development",
+    "short_name": "Gulherme Beitum",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://guilhermebeitum.com.br/",
+    "theme_color": "black",
+    "background_color": "black",
+    "description": "Meu portifólio profissional com meus trabalho de web design",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "images/favicong.png",
+            "sizes": "144x144"
+        },
+         {
+            "src": "images/gicon.png",
+            "sizes": "512x512"
+        },
+           {
+            "src": "images/maskable_icon.png",
+            "purpose": "any maskable",
+            "sizes": "98x98"
+        }
+    ]
+}
