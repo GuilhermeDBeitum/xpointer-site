@@ -9,3 +9,28 @@ Website developed for the company Xpointer.
 ![image](https://user-images.githubusercontent.com/54703843/133391405-b2e6a1ae-d446-4712-bc36-75484cd6047c.png)
 
 ## https://xpointer.web.app/
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
